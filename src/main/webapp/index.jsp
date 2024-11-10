@@ -31,15 +31,27 @@
             padding: 20px;
             text-align: center;
         }
+        main h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        main p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
         footer {
             background-color: #fc8019;
-            color: #fff;
+            color: blue;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             position: fixed;
             width: 100%;
             bottom: 0;
-            font-size: 20px;
+            font-size: 22px;
             font-weight: bold;
         }
     </style>
@@ -53,8 +65,9 @@
 
 <main>
     <h2>Welcome to the Swiggy Experience</h2>
-    <p>Enjoy a seamless food delivery experience with a wide variety of options.</p>
-    <p>Choose your favorite meals, and we’ll deliver them hot and fresh to your doorstep.</p>
+
+    <p>In this demo, I've integrated Jenkins with Tomcat and successfully deployed a sample application to the Tomcat server. This setup shows how easily Jenkins can automate deployments, making the process smooth and efficient.</p>
+    <p>This application is deployed by me, Praveen Kumar Ashaboina, to demonstrate the power of CI/CD with Jenkins and Tomcat.</p>
 </main>
 
 <footer>
