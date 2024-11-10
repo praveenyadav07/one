@@ -39,6 +39,8 @@
             position: fixed;
             width: 100%;
             bottom: 0;
+            font-size: 20px;
+            font-weight: bold;
         }
     </style>
 </head>
