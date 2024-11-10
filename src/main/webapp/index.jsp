@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My E-Commerce Store</title>
+    <title>My E-Commerce Store - V2</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,11 +20,28 @@
             font-size: 24px;
             font-weight: bold;
         }
-        .products {
+        .search-bar {
+            padding: 15px;
+            text-align: center;
+        }
+        .search-bar input {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+        .products, .featured-products {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             padding: 20px;
+        }
+        .section-title {
+            width: 100%;
+            text-align: center;
+            font-size: 22px;
+            margin: 20px 0;
+            color: #ff9900;
+            font-weight: bold;
         }
         .product {
             background-color: white;
@@ -69,10 +86,31 @@
 <body>
 
 <header>
-    Welcome to My E-Commerce Store
+    Welcome to My E-Commerce Store - V2
 </header>
 
+<div class="search-bar">
+    <input type="text" placeholder="Search for products...">
+</div>
+
+<div class="featured-products">
+    <div class="section-title">Featured Products</div>
+    <div class="product">
+        <img src="images/featured1.jpg" alt="Featured Product 1">
+        <h3>Featured Product 1</h3>
+        <p>Exclusive high-quality product.</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="images/featured2.jpg" alt="Featured Product 2">
+        <h3>Featured Product 2</h3>
+        <p>Top-rated product with great reviews.</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
 <div class="products">
+    <div class="section-title">All Products</div>
     <div class="product">
         <img src="images/product1.jpg" alt="Product 1">
         <h3>Product 1</h3>
