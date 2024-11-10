@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swiggy Demo Page</title>
+    <title>My E-Commerce Store</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,65 +13,88 @@
             color: #333;
         }
         header {
-            background-color: #fc8019;
+            background-color: #ff9900;
             padding: 15px;
-            display: flex;
-            align-items: center;
-        }
-        header img {
-            height: 50px;
-            margin-right: 20px;
-        }
-        header h1 {
-            color: #fff;
-            font-size: 24px;
-            margin: 0;
-        }
-        main {
-            padding: 20px;
             text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
         }
-        main h2 {
-            font-size: 28px;
-            color: #333;
-            margin-bottom: 10px;
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
         }
-        main p {
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 15px;
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product h3 {
             font-size: 18px;
-            color: #555;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #777;
+            font-size: 14px;
+        }
+        .product button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
         }
         footer {
-            background-color: #fc8019;
-            color: blue;
+            background-color: #333;
+            color: lightblue;
             text-align: center;
-            padding: 20px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-            font-size: 22px;
-            font-weight: bold;
+            padding: 10px;
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="images/swiggy-logo.png" alt="Swiggy Logo">
-    <h1>Swiggy - Food Delivery Redefined</h1>
+    Welcome to My E-Commerce Store
 </header>
 
-<main>
-    <h2>Deployed a sample Swiggy application on a Tomcat server with Jenkins integration</h2>
-
-    <p>In this demo, I've integrated Jenkins with Tomcat and successfully deployed a sample application to the Tomcat server. This setup shows how easily Jenkins can automate deployments, making the process smooth and efficient.</p>
-    <p>This application is deployed by me, Praveen Kumar Ashaboina, to demonstrate the power of CI/CD with Jenkins and Tomcat.</p>
-</main>
+<div class="products">
+    <div class="product">
+        <img src="images/product1.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>High-quality product with amazing features.</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="images/product2.jpg" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>Another high-quality product with special features.</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="images/product3.jpg" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>A popular choice among our customers.</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
 
 <footer>
-    Created by Praveen Kumar Ashaboina
+    Deployed by Praveen Kumar Ashaboina
 </footer>
 
 </body>
