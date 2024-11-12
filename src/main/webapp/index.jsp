@@ -1,39 +1,57 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram - My App</title>
+    <title>My Blog Site</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #fafafa;
-            color: #333;
         }
         header {
-            background-color: #3f729b;
+            background-color: #3498db;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
-            font-size: 24px;
-            font-weight: bold;
         }
-        .feed {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .content {
             padding: 20px;
         }
-        .post {
-            width: 500px;
-            background-color: white;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        .footer {
+            background-color: #333;
+            color: #eee;
+            text-align: center;
             padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-family: 'Courier New', monospace;
         }
-        .post .header {
-            display: flex;
-            align-items: c
+        .deployed-by {
+            color: #FF6347; /* Tomato color for highlight */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog Site</h1>
+        <p>Explore articles, tutorials, and more!</p>
+    </header>
+
+    <div class="content">
+        <h2>Featured Article</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+        <h2>About</h2>
+        <p>This blog is designed to share insights on various topics including technology, lifestyle, and personal development.</p>
+    </div>
+
+    <div class="footer">
+        <p>Deployed by <span class="deployed-by">Praveen Kumar Ashaboina</span></p>
+    </div>
+</body>
+</html>
