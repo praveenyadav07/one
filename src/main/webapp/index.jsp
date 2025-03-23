@@ -52,7 +52,7 @@
     </div>
 
     <div class="footer">
-        <p><span class="deployed-by">Deployed by Praveen Kumar Yadav</span></p>
+        <p><span class="deployed-by">Deployed by PKY/span></p>
     </div>
 </body>
 </html>
